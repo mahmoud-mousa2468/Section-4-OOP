@@ -136,6 +136,10 @@ namespace Demo
             // sealed : C# Keyword [Class - Method - Property]
             #endregion
 
+            Employee employee = new Employee();
+            employee.Name = "ahmed";
+            employee.Id = 30;
+
         }
     }
 }

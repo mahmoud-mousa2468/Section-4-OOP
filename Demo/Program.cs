@@ -3,6 +3,7 @@ using System.Numerics;
 using Demo.Abstraction;
 using Demo.Mapping;
 using Demo.operatorOverloading;
+using Demo.Static;
 
 namespace Demo
 {
@@ -74,12 +75,12 @@ namespace Demo
 
             // (int) : Casting Operator
 
-            MyComplex C01 = new MyComplex()
-            {
-                Real = 3,
-                Imag = 4
-            };
-            string S = (string)C01;
+            //MyComplex C01 = new MyComplex()
+            //{
+            //    Real = 3,
+            //    Imag = 4
+            //};
+            //string S = (string)C01;
             // (string) : Convert Complex Number To String
 
             /// Operator Overloading
@@ -90,7 +91,7 @@ namespace Demo
             //int X = (int)C01;
             //Console.WriteLine(X);
 
-            int X =(int) new MyComplex() { Real = 10, Imag = 20 };
+            //int X =(int) new MyComplex() { Real = 10, Imag = 20 };
 
 
             // Mapping :convert from Datatype To Datatype
@@ -105,18 +106,30 @@ namespace Demo
 
             // Mannual Mapping
 
-            User user = new User();
-            UserDto userDto = new UserDto()
-            {
-                Email = user.Email,
-                Name = user.Name,
-                PhoneNum = user.PhoneNum
-            };
+            //User user = new User();
+            //UserDto userDto = new UserDto()
+            //{
+            //    Email = user.Email,
+            //    Name = user.Name,
+            //    PhoneNum = user.PhoneNum
+            //};
 
             // Casting Operator
 
             // Automapper : Mapping Automatic
 
+            #endregion
+
+            #region Static
+            // static :C# Keyword [class -method-property-constructor-attribute]
+            //Static Class
+            //Static Method
+            //Static Constructor 
+            //Static Property
+            //Static Attribute
+
+            //Console.WriteLine(Utilities.CmToInch(100));
+            //Console.WriteLine(Utilities.PI);
             #endregion
 
         }

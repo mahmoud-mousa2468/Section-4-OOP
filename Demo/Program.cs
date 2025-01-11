@@ -132,6 +132,10 @@ namespace Demo
             //Console.WriteLine(Utilities.PI);
             #endregion
 
+            #region Sealed
+            // sealed : C# Keyword [Class - Method - Property]
+            #endregion
+
         }
     }
 }

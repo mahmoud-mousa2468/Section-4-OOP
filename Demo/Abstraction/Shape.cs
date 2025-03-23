@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Demo.Abstraction
 {
+    // Abstract Class : Partial Class [Not Fully Implemented Class]
+    // Concert Class  : Fully Implemented Class
     internal abstract class Shape
     {
         public double Dim01 { get; set; }
@@ -13,10 +15,9 @@ namespace Demo.Abstraction
 
         // Abstract Method : like Virtual Method Without Implementation
         public abstract double GetArea();
+        // Abstract Method : like Virtual Property Without Implementation
 
-        public abstract double Perimeter
         {
-            get;
         }
     }
 }

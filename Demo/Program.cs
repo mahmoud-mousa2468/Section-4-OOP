@@ -1,4 +1,11 @@
-﻿namespace Demo
+﻿using System.Drawing;
+using System.Numerics;
+using Demo.Abstraction;
+using Demo.Mapping;
+using Demo.operatorOverloading;
+using Demo.Static;
+
+namespace Demo
 {
     internal class Program
     {
